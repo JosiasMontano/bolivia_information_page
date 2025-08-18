@@ -1,0 +1,85 @@
+:root {
+    --primary: #2c3e50;
+    --secondary: #34495e;
+    --accent: #e74c3c;
+    --light: #ecf0f1;
+    --dark: #1a1a2e;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark);
+    color: var(--light);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: var(--primary);
+    margin-bottom: 20px;
+    border-bottom: 3px solid var(--accent);
+}
+
+.header h1 {
+   
+}
+
+.main-image {
+   
+}
+
+.btn-container {
+   
+}
+
+.btn {
+    
+}
+
+.btn:hover {
+   
+}
+
+.info-section {
+    
+}
+
+.info-grid {
+    
+}
+
+.info-item {
+    
+}
+
+.info-item h3 {
+    
+}
+
+.media-container {
+    
+}
+
+.map-container, .video-container {
+   
+}
+
+.map-container iframe, .video-container iframe {
+    
+}
+
+.back-btn {
+    
+}
+
+
+}
