@@ -39,15 +39,40 @@ const boliviaData = {
             festividades: "Fiesta de la Virgen de Urkupiña, Carnaval",
             gastronomia: "Silpancho, Pique macho, Sopa de maní, Chicha cochabambina"
         },
-        tarija: {  
+        tarija: {
+            nombre: "Tarija",
+            imagen: "https://i.pinimg.com/originals/a8/ea/68/a8ea68616b039efd40d13459aaf1897b.jpg",
+            video: "https://www.youtube.com/embed/xyzeiUqUdqk",
+            mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827296.714534921!2d-64.5!3d-21.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915edf0a04a5a0ab%3A0x4e36fe51dfc7e974!2sDepartamento%20de%20Tarija!5e0!3m2!1ses!2sbo!4v1710000000000!5m2!1ses!2sbo"
+            
         },
         santacruz: {
+            nombre: "Santa Cruz",
+            imagen: "https://www.educa.com.bo/sites/default/files/mapa-politico-santa-cruz-0116.jpg",
+            video: "https://www.youtube.com/embed/V871IYGsa-s?si=5IZbZicl8hXQH4fY",
+            mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827296.714534921!2d-62.5!3d-17.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93fbc3d6c1e2a0a5%3A0x4e36fe51dfc7e974!2sDepartamento%20de%20Santa%20Cruz!5e0!3m2!1ses!2sbo!4v1710000000000!5m2!1ses!2sbo"
+            
         },
         lapaz: {
+            nombre: "La Paz",
+            imagen: "https://www.educa.com.bo/sites/default/files/mapa-politico-la-paz-0116.jpg",
+            video: "https://www.youtube.com/embed/AyOtlWnb0As?si=UNrThAPMdLsvKMhj",
+            mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827296.714534921!2d-69.5!3d-16.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915edf0a04a5a0ab%3A0x4e36fe51dfc7e974!2sDepartamento%20de%20La%20Paz!5e0!3m2!1ses!2sbo!4v1710000000000!5m2!1ses!2sbo"
+            
         },
-        oruro: { 
+        oruro: {
+            nombre: "Oruro",
+            imagen: "https://www.educa.com.bo/sites/default/files/mapa-politico-oruro-0116.jpg",
+            video: "https://www.youtube.com/embed/0A3Aq-5hp8A?si=xAKrCj8LZpnHMjXG",
+            mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827296.714534921!2d-68.5!3d-18.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915edf0a04a5a0ab%3A0x4e36fe51dfc7e974!2sDepartamento%20de%20Oruro!5e0!3m2!1ses!2sbo!4v1710000000000!5m2!1ses!2sbo"
+            
         },
         potosi: {
+            nombre: "Potosí",
+            imagen: "https://www.educa.com.bo/sites/default/files/mapa-politico-potosi-0116.jpg",
+            video: "https://www.youtube.com/embed/VbRV4WNBzKI?si=ucExX-8kDjsTwULr",
+            mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827296.714534921!2d-67.5!3d-20.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915edf0a04a5a0ab%3A0x4e36fe51dfc7e974!2sDepartamento%20de%20Potos%C3%AD!5e0!3m2!1ses!2sbo!4v1710000000000!5m2!1ses!2sbo"
+           
         },
         pando: {  
         },
@@ -61,7 +86,7 @@ const boliviaData = {
 function App() {
     const [currentView, setCurrentView] = React.useState('bolivia');
     
-    const renderMainPage = () => (
+    const renderMainPage = () => ( 
         <div>
             <h2>Bolivia: Información General</h2>
             <img 
@@ -78,46 +103,45 @@ function App() {
                         allowFullScreen
                     ></iframe>
                 </div>
-            
-            <div className="media-container">
-                    <div className="map-container">
-                        <iframe 
-                            src={depto.mapa}
-                            title={`Mapa de ${depto.nombre}`}
-                            allowFullScreen
-                        ></iframe>
-                    </div>
-                    <div className="video-container">
-                        <iframe 
-                            src={depto.video}
-                            title={`Video de ${depto.nombre}`}
-                            allowFullScreen
-                        ></iframe>
-                    </div>
-            </div>
-
-            <div className="info-section">
-                <div className="info-grid">
-                    <div className="info-item">
-                        <h3> 🌐 Extensión Territorial</h3>
-                        <p>{boliviaData.general.extension}</p>
-                    </div>
-                    
-                    </div>
+                <div className="video-container">
+                    <iframe 
+                        src={boliviaData.general.video}
+                        title="Video de Bolivia"
+                        allowFullScreen
+                    ></iframe>
                 </div>
             </div>
             
-            
-        </div>
+            <div className="btn-container">
+                {Object.keys(boliviaData.departamentos).map(depto => (
+                    <button 
+                        key={depto}
+                        className="btn"
+                        onClick={() => setCurrentView(depto)}
+                    >
+                        {boliviaData.departamentos[depto].nombre}
+                    </button>
+                ))}
+            </div>
+         </div>
     );
-    
+        
     const renderDepartmentPage = (deptoKey) => {
+        const depto = boliviaData.departamentos[deptoKey];
         
-        
-       
-    };
+        return (
+            <div>
+                <button 
+                    className="btn back-btn"
+                    onClick={() => setCurrentView('bolivia')}
+                >
+                    ← Volver a Bolivia
+                </button>
+            </div>
+        );
     
-    return (
+    };
+    return (        
         <div className="container">
             <header className="header">
                 <h1>Bolivia y sus Departamentos</h1>
