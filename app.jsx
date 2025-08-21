@@ -224,11 +224,82 @@ function App() {
                 >
                     ← Volver a Bolivia
                 </button>
+                
+                <h2>{depto.nombre}</h2>
+                <img 
+                    src={depto.imagen} 
+                    alt={`Mapa de ${depto.nombre}`} 
+                    className="main-image"
+                />
+                
+                <div className="media-container">
+                    <div className="map-container">
+                        <iframe 
+                            src={depto.mapa}
+                            title={`Mapa de ${depto.nombre}`}
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+                    <div className="video-container">
+                        <iframe 
+                            src={depto.video}
+                            title={`Video de ${depto.nombre}`}
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+                </div>
+
+                <div className="info-section">
+                    <div className="info-grid">
+                        <div className="info-item">
+                            <h3>Extensión Territorial</h3>
+                            <p>{depto.extension}</p>
+                        </div>
+                        <div className="info-item">
+                            <h3>Población</h3>
+                            <p>{depto.poblacion}</p>
+                        </div>
+                        <div className="info-item">
+                            <h3>Altura</h3>
+                            <p>{depto.altura}</p>
+                        </div>
+                        <div className="info-item">
+                            <h3>Densidad</h3>
+                            <p>{depto.densidad}</p>
+                        </div>
+                        <div className="info-item">
+                            <h3>Idiomas</h3>
+                            <p>{depto.idiomas}</p>
+                        </div>
+                        <div className="info-item">
+                            <h3>Gentilicio</h3>
+                            <p>{depto.gentilicio}</p>
+                        </div>
+                        <div className="info-item">
+                            <h3>Economia</h3>
+                            <p>{depto.economia}</p>
+                        </div>
+                        <div className="info-item">
+                            <h3>Clima</h3>
+                            <p>{depto.clima}</p>
+                        </div>
+                        <div className="info-item">
+                            <h3>Festividades</h3>
+                            <p>{depto.festividades}</p>
+                        </div>
+                        <div className="info-item">
+                            <h3>Gastronomia</h3>
+                            <p>{depto.gastronomia}</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
             </div>
         );
-    
     };
-    return (        
+    
+    return (
         <div className="container">
             <header className="header">
                 <h1>Bolivia y sus Departamentos</h1>
@@ -237,6 +308,7 @@ function App() {
             <main>
                 {currentView === 'bolivia' ? renderMainPage() : renderDepartmentPage(currentView)}
             </main>
+            <footer>.<p>Derechos reservados 2025</p></footer>
         </div>
     );
 }
