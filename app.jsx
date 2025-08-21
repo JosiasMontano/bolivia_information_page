@@ -63,13 +63,13 @@ const boliviaData = {
             extension: "370,621 km²",
             poblacion: "3,500,000 hab",
             altura: "200-1500 msnm",
-            densidad: "9 hab/km²",
-            idiomas: "Español, guaraní, chiquitano y mojeño",
-            gentilicio: "Cruceño/a",
-            economia: "Agroindustria (soja, girasol), hidrocarburos, comercio, servicios",
-            clima: "Tropical (22°C a 35°C), con humedad alta en verano",
-            festividades: "Fiesta de la Virgen de Cotoca, Carnaval Cruceño",
-            gastronomia: "Majadito, Sonso, Locro, Empanadas de arroz."
+        densidad: "9 hab/km²",
+        idiomas: "Español, guaraní, chiquitano y mojeño",
+        gentilicio: "Cruceño/a",
+        economia: "Agroindustria (soja, girasol), hidrocarburos, comercio, servicios",
+        clima: "Tropical (22°C a 35°C), con humedad alta en verano",
+        festividades: "Fiesta de la Virgen de Cotoca, Carnaval Cruceño",
+        gastronomia: "Majadito, Sonso, Locro, Empanadas de arroz."
         },
         lapaz: {
             nombre: "La Paz",
@@ -79,13 +79,13 @@ const boliviaData = {
             extension: "133,985 km²",
             poblacion: "2,900,000 hab",
             altura: "3,000 a 4,150 msnm",
-            densidad: "22 hab/km²",
-            idiomas: "Español, aymara (mayoritario), quechua",
-            gentilicio: "Paceño/a",
-            economia: "Servicios , Agricultura , Minería e Hidroeléctricas",
-            clima: "Frio (11°C a 25°C promedio)",
-            festividades: "Alasitas, Fiesta del Gran Poder",
-            gastronomia: "Plato Paceño, Chairo, Thimpu , Café de los Yungas."
+        densidad: "22 hab/km²",
+        idiomas: "Español, aymara (mayoritario), quechua",
+        gentilicio: "Paceño/a",
+        economia: "Servicios , Agricultura , Minería e Hidroeléctricas",
+        clima: "Frio (11°C a 25°C promedio)",
+        festividades: "Alasitas, Fiesta del Gran Poder",
+        gastronomia: "Plato Paceño, Chairo, Thimpu , Café de los Yungas."
         },
         oruro: {
             nombre: "Oruro",
@@ -95,13 +95,13 @@ const boliviaData = {
             extension: "53,588 km²",
             poblacion: "550,000 hab",
             altura: "3,700-4,000 msnm",
-           densidad: "10 hab/km²",
-            idiomas: "Español, Quechua y Aymara",
-            gentilicio: "Oureño/a",
-            economia: "Minería (estaño, plata), comercio, turismo",
-            clima: "Frío y seco (5°C a 15°C)",
-            festividades: "Carnaval de Oruro, Fiesta del Socavón",
-            gastronomia: "Charquekán, Rostro asado, Api con pastel"
+       densidad: "10 hab/km²",
+        idiomas: "Español, Quechua y Aymara",
+        gentilicio: "Oureño/a",
+        economia: "Minería (estaño, plata), comercio, turismo",
+        clima: "Frío y seco (5°C a 15°C)",
+        festividades: "Carnaval de Oruro, Fiesta del Socavón",
+        gastronomia: "Charquekán, Rostro asado, Api con pastel"
         },
         potosi: {
             nombre: "Potosí",
@@ -111,13 +111,13 @@ const boliviaData = {
             extension: "118,218 km²",
             poblacion: "900,000 hab",
             altura: "4,000 msnm (promedio)",
-            densidad: "7 hab/km²",
-            idiomas: "Español, Quechua",
-            gentilicio: "Potosino/a",
-            economia: "Minería (plata, zinc, plomo), turismo",
-            clima: "Frío y seco (0°C a 15°C)",
-            festividades: "Fiesta de Ch'utillos, Carnaval Minero",
-            gastronomia: "K'ala phurka, Ají de arvejas, Asado potosino"
+        densidad: "7 hab/km²",
+        idiomas: "Español, Quechua",
+        gentilicio: "Potosino/a",
+        economia: "Minería (plata, zinc, plomo), turismo",
+        clima: "Frío y seco (0°C a 15°C)",
+        festividades: "Fiesta de Ch'utillos, Carnaval Minero",
+        gastronomia: "K'ala phurka, Ají de arvejas, Asado potosino"
         },
         pando: {
             nombre: "Pando",
@@ -127,13 +127,13 @@ const boliviaData = {
             extension: "63,827 km²",
             poblacion: "154,000 hab",
             altura: "180 msnm (promedio)",
-            densidad: "2 hab/km²",
-            idiomas: "Español, portugués (regional)",
-            gentilicio: "Pandino/a",
-            economia: "Castaña, madera, turismo ecológico",
-            clima: "Tropical húmedo (25°C a 35°C)",
-            festividades: "Feria de la Castaña, Aniversario de Pando",
-            gastronomia: "Majao, Pacumutu, Asado de jochi"
+        densidad: "2 hab/km²",
+        idiomas: "Español, portugués (regional)",
+        gentilicio: "Pandino/a",
+        economia: "Castaña, madera, turismo ecológico",
+        clima: "Tropical húmedo (25°C a 35°C)",
+        festividades: "Feria de la Castaña, Aniversario de Pando",
+        gastronomia: "Majao, Pacumutu, Asado de jochi"
         },
         beni: {
             nombre: "Beni",
@@ -143,13 +143,13 @@ const boliviaData = {
             extension: "213,564 km²",
             poblacion: "480,000 hab",
             altura: "150 msnm",
-            densidad: "2 hab/km²",
-            idiomas: "Español, mojeño, trinitario (lenguas indígenas)",
-            gentilicio: "Beniano/a",
-            economia: "Ganadería, agricultura (arroz, maíz), turismo ecológico",
-            clima: "Tropical húmedo (23°C a 35°C)",
-            festividades: "Fiesta del Santo Patrono de Trinidad, Feria Exposición",
-           gastronomia: "Masaco, Keperi, Majao, Sopa de maní"
+        densidad: "2 hab/km²",
+        idiomas: "Español, mojeño, trinitario (lenguas indígenas)",
+        gentilicio: "Beniano/a",
+        economia: "Ganadería, agricultura (arroz, maíz), turismo ecológico",
+        clima: "Tropical húmedo (23°C a 35°C)",
+        festividades: "Fiesta del Santo Patrono de Trinidad, Feria Exposición",
+        gastronomia: "Masaco, Keperi, Majao, Sopa de maní"
         },
         sucre: {
             nombre: "Sucre",
@@ -159,13 +159,13 @@ const boliviaData = {
             extension: "51,524 km²",
             poblacion: "637,000 hab",
             altura: "50-3500 msnm",
-            densidad: "12 hab/km²",
-            idiomas: "Español, quechua, guaraní (Chaco)",
-            gentilicio: "Chuquisaqueño/a",
-            economia: "Agricultura (maíz, trigo), turismo histórico, servicios educativos",
-            clima: "Variado (templado en valles, cálido en el Chaco)",
-            festividades: "Pujllay, Festival de la Cultura",
-            gastronomia: "Chorizos chuquisaqueños, Sopa de maní, Ají de papalisa"
+        densidad: "12 hab/km²",
+        idiomas: "Español, quechua, guaraní (Chaco)",
+        gentilicio: "Chuquisaqueño/a",
+        economia: "Agricultura (maíz, trigo), turismo histórico, servicios educativos",
+        clima: "Variado (templado en valles, cálido en el Chaco)",
+        festividades: "Pujllay, Festival de la Cultura",
+        gastronomia: "Chorizos chuquisaqueños, Sopa de maní, Ají de papalisa"
         }
     }
 };
@@ -173,7 +173,7 @@ const boliviaData = {
 function App() {
     const [currentView, setCurrentView] = React.useState('bolivia');
     
-    const renderMainPage = () => ( 
+    const renderMainPage = () => (
         <div>
             <h2>Bolivia: Información General</h2>
             <img 
@@ -210,9 +210,79 @@ function App() {
                     </button>
                 ))}
             </div>
-         </div>
+
+            <div className="info-section">
+                <div className="info-grid">
+                    <div className="info-item">
+                        <h3> 🌐 Extensión Territorial</h3>
+                        <p>{boliviaData.general.extension}</p>
+                    </div>
+                    <div className="info-item">
+                        <h3> 👥 Población</h3>
+                        <p>{boliviaData.general.poblacion}</p>
+                    </div>
+                    <div className="info-item">
+                        <h3> ⛰️ Altura</h3>
+                        <p>{boliviaData.general.altura}</p>
+                    </div>
+                    <div className="info-item">
+                        <h3> 📊 Densidad</h3>
+                        <p>{boliviaData.general.densidad}</p>
+                    </div>
+                    <div className="info-item">
+                        <h3> 🏛️ Capital</h3>
+                        <p>{boliviaData.general.capital}</p>
+                    </div>
+                    <div className="info-item">
+                        <h3> 🗣️ Idiomas</h3>
+                        <p>{boliviaData.general.idiomas}</p>
+                    </div>
+                    <div className="info-item">
+                        <h3> 💰 Moneda</h3>
+                        <p>{boliviaData.general.moneda}</p>
+                    </div>
+                    <div className="info-item">
+                        <h3> 🤝 Gentilicio</h3>
+                        <p>{boliviaData.general.gentilicio}</p>
+                    </div>
+                    <div className="info-item">
+                        <h3> 🏭 Economia</h3>
+                        <p>{boliviaData.general.economia}</p>
+                    </div>
+                    <div className="info-item">
+                        <h3> ☀️ Clima</h3>
+                        <p>{boliviaData.general.clima}</p>
+                    </div>
+                    <div className="info-item">
+                        <h3> 🎉 Festividades</h3>
+                        <p>{boliviaData.general.festividades}</p>
+                    </div>
+                    <div className="info-item">
+                        <h3> 📜 Idiomas Oficiales</h3>
+                        <p>{boliviaData.general.idiomas_oficiales}</p>
+                    </div>
+                    <div className="info-item">
+                        <h3> ⛪ Religion</h3>
+                        <p>{boliviaData.general.religion}</p>
+                    </div>
+                    <div className="info-item">
+                        <h3> 💵 Moneda</h3>
+                        <p>{boliviaData.general.moneda}</p>
+                    </div>
+                    <div className="info-item">
+                        <h3> 🏛️ Sistema Gobierno</h3>
+                        <p>{boliviaData.general.sistema_gobierno}</p>
+                    </div><div className="info-item">
+                        <h3> 🤝 Principales Socios Comerciales</h3>
+                        <p>{boliviaData.general.principales_socios_comerciales}</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
     );
-        
+    
     const renderDepartmentPage = (deptoKey) => {
         const depto = boliviaData.departamentos[deptoKey];
         
